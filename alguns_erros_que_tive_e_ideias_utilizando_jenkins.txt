@@ -1,0 +1,11 @@
+Video que peguei como referencia para fazer deploy utilizando o jenkins mas na Azure:
+https://www.youtube.com/watch?v=5C6kzqeO4Ew&t=12s&ab_channel=DevOpsCoach
+
+pagina referencia.
+https://www.coachdevops.com/2020/06/deploy-python-app-into-kubernetes.html
+
+Na hora de instalar os plugins no jenkins, deve instalar o ...
+Kubernetes CD versao 1.0, eh uma versao menor do que a tem la por padrao
+
+Hey @mahusanin thanks for the solution
+downgraded Kubernetes CD to version 1.0 and it worked perfect
