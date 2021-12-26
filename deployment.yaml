@@ -30,7 +30,7 @@ spec:
         app: hello-world-rest-api
     spec:
       containers:
-      - image: gilbertoewaldf/algamoney-api:latest
+      - image: gilbertoewaldf/algamoney-api:1.0.0-SNAPSHOT
         imagePullPolicy: Always
         name: algamoney-api
         resources: {}
