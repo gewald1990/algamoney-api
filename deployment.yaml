@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - image: gilbertoewaldf/algamoney-api:latest
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         name: algamoney-api
         resources: {}
         terminationMessagePath: /dev/termination-log
